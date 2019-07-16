@@ -13,3 +13,7 @@ Generate the static site and open it with browser-sync:
     $ cd cpsc349/day6
     $ eleventy --serve
 
+//Student Edit
+
+$ cd day6
+$ eleventy --serve
