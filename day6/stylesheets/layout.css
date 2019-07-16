@@ -1,0 +1,256 @@
+/* Add layouts here*/
+
+body{
+    display: flex;
+
+    flex-flow: row wrap;
+}
+
+header{
+    order:1;
+
+    flex:1;
+    flex-basis: 100%;
+}
+
+main{
+    order: 3;
+
+    flex:1;
+    flex-basis: 20%;
+}
+
+
+p:nth-child(3){
+    
+    float: left;
+    margin:15px 15px 15px 15px ;
+    width: 200px;
+    padding: 20px 20px 20px 20px;
+}
+
+
+.navigation{
+    order: 2;
+  
+    flex:1;
+    flex-basis: 10%;
+}
+
+.links{
+    order: 4;
+
+    flex:1;
+    flex-basis: 0.5%;
+    display:flex;
+    flex-direction: row;
+    justify-content:flex-start;
+}
+
+footer{
+    order: 5;
+    
+    flex:1;
+    flex-basis: 100%;
+}
+
+/* Layout 1
+body{
+    display: flex;
+
+    flex-flow: row wrap;
+}
+
+header{
+    order:1;
+
+    flex:1;
+    flex-basis: 100%;
+}
+
+main{
+    order: 2;
+
+    flex:1;
+    flex-basis: 50%;
+}
+
+.navigation{
+    order: 3;
+
+    flex:1;
+    flex-basis: 20%;
+}
+
+.links{
+    order: 4;
+
+    flex:1;
+    flex-basis: 100%;
+}
+
+.links ul{
+    display: flex;
+}
+
+.links li{
+    flex-basis: 100%;
+}
+
+footer{
+    order: 5;
+
+    flex:1;
+    flex-basis: 100%;
+}
+*/
+
+/* Layout 2 
+body{
+    display: flex;
+
+    flex-flow: row wrap;
+}
+
+header{
+    order:1;
+
+    flex:1;
+    flex-basis: 100%;
+}
+
+main{
+    order: 2;
+
+    flex:1;
+    flex-basis: 50%;
+}
+
+
+.navigation{
+    order: 3;
+
+    flex:1;
+    flex-basis: 20%;
+}
+
+.links{
+    order: 4;
+
+    flex:1;
+    flex-basis: 100%;
+    display:flex;
+    justify-content:flex-end;
+}
+
+footer{
+    order: 5;
+
+    flex:1;
+    flex-basis: 100%;
+}
+*/
+
+/* Layout 3
+body{
+    display: flex;
+
+    flex-flow: row wrap;
+}
+
+header{
+    order:1;
+
+    flex:1;
+    flex-basis: 100%;
+}
+
+main{
+    order: 4;
+
+    flex:1;
+    flex-basis: 50%;
+}
+
+
+.navigation{
+    order: 3;
+
+    flex:1;
+    flex-basis: 5%;
+}
+
+.links{
+    order: 5;
+
+    flex:1;
+    flex-basis: 10%;
+    display:flex;
+    flex-direction: column;
+    justify-content:flex-start;
+}
+
+footer{
+    order: 2;
+
+    flex:1;
+    flex-basis: 100%;
+}
+*/
+
+/* Layout 4
+body{
+    display: flex;
+
+    flex-flow: row wrap;
+}
+
+header{
+    order:1;
+
+    flex:1;
+    flex-basis: 100%;
+}
+
+main{
+    order: 3;
+
+    flex:1;
+    flex-basis: 20%;
+}
+
+
+p:nth-child(3){
+    
+    float: left;
+    margin:15px 15px 15px 15px ;
+    width: 200px;
+    padding: 20px 20px 20px 20px;
+}
+
+
+.navigation{
+    order: 2;
+  
+    flex:1;
+    flex-basis: 10%;
+}
+
+.links{
+    order: 4;
+
+    flex:1;
+    flex-basis: 0.5%;
+    display:flex;
+    flex-direction: row;
+    justify-content:flex-start;
+}
+
+footer{
+    order: 5;
+    
+    flex:1;
+    flex-basis: 100%;
+}
+*/
+

@@ -1,0 +1,47 @@
+/* Add site styles here */
+body{
+   background-color: #F7CEA7;
+}
+
+header{
+background-color: #AB8057;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-align: center;
+font-size: 32px;
+}
+
+main{
+    padding: 10px 10px 10px 10px;
+    background-color:#E6C3A3;
+}
+
+main h2{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 36px;
+}
+
+p:nth-child(3){
+    background-color: white;
+    border: 2px solid black;
+    font-style: italic;
+    font-weight: bold;
+}
+.navigation{
+    padding: 10px 10px 10px 10px;
+}
+
+.links{
+    padding: 10px 10px 10px 10px;
+}
+
+footer{
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    background-color: #C29F7F;
+}
+
+a:hover{
+    color:#FBF3C2;
+    font-weight: bold;
+}
